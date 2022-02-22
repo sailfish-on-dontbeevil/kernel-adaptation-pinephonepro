@@ -1,0 +1,3 @@
+[submodule "linux"]
+	path = linux
+	url = https://gitlab.com/pine64-org/linux

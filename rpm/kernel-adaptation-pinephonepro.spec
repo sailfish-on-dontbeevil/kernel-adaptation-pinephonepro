@@ -13,7 +13,7 @@
 %define device_target_cpu aarch64
 
 # Defconfig to pick-up
-%define defconfig pinephonepro_defconfig_sfos
+%define defconfig pinephonepro_config_cross
 
 # Linux kernel source directory
 %define source_directory linux/

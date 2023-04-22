@@ -13,7 +13,7 @@
 %define device_target_cpu aarch64
 
 # Defconfig to pick-up
-%define defconfig pinephone_pro_defconfig
+%define defconfig pinephonepro_manjaro_config
 
 # Linux kernel source directory
 %define source_directory linux/

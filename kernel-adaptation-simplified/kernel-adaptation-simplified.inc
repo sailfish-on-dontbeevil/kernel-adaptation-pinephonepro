@@ -64,6 +64,10 @@ BuildRequires:  cross-%{crossbuild}-gcc
 BuildRequires:  cross-%{crossbuild}-binutils
 BuildRequires:  cross-%{crossbuild}-as
 %endif
+Provides:       droid-hal
+Provides:       droid-hal-kernel
+Provides:       droid-hal-img-boot
+Provides:       droid-hal-img-recovery
 
 %description
 %{summary}.

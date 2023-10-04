@@ -1,0 +1,26 @@
+From 39066761511a07ad35dc5646fe202a27764c434b Mon Sep 17 00:00:00 2001
+From: Jacopo Mondi <jacopo.mondi@ideasonboard.com>
+Date: Tue, 3 Oct 2023 16:42:35 +0200
+Subject: [PATCH] Reduce num min buffers
+
+Signed-off-by: Jacopo Mondi <jacopo.mondi@ideasonboard.com>
+---
+ drivers/media/platform/rockchip/rkisp1/rkisp1-capture.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/drivers/media/platform/rockchip/rkisp1/rkisp1-capture.c b/drivers/media/platform/rockchip/rkisp1/rkisp1-capture.c
+index d4540684ea9a..85cd6f85d19e 100644
+--- a/drivers/media/platform/rockchip/rkisp1/rkisp1-capture.c
++++ b/drivers/media/platform/rockchip/rkisp1/rkisp1-capture.c
+@@ -35,7 +35,7 @@
+ #define RKISP1_SP_DEV_NAME	RKISP1_DRIVER_NAME "_selfpath"
+ #define RKISP1_MP_DEV_NAME	RKISP1_DRIVER_NAME "_mainpath"
+ 
+-#define RKISP1_MIN_BUFFERS_NEEDED 3
++#define RKISP1_MIN_BUFFERS_NEEDED 1
+ 
+ enum rkisp1_plane {
+ 	RKISP1_PLANE_Y	= 0,
+-- 
+2.38.5
+

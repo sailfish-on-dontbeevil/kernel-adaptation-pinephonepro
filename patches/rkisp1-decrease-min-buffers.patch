@@ -17,7 +17,7 @@ index d4540684ea9a..85cd6f85d19e 100644
  #define RKISP1_MP_DEV_NAME	RKISP1_DRIVER_NAME "_mainpath"
  
 -#define RKISP1_MIN_BUFFERS_NEEDED 3
-+#define RKISP1_MIN_BUFFERS_NEEDED 1
++#define RKISP1_MIN_BUFFERS_NEEDED 0
  
  enum rkisp1_plane {
  	RKISP1_PLANE_Y	= 0,
